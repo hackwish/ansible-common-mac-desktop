@@ -27,5 +27,5 @@
     state: present
     upgrade_all: yes
     update_homebrew: yes
-      ignore_errors: true
+  ignore_errors: true
 
