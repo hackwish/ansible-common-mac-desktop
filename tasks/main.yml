@@ -1,0 +1,30 @@
+---
+- name: "Install Homebrew Cask Packages"
+  community.general.homebrew_cask:
+    name: "{{ packages }}"
+  vars:
+    packages:
+      - 'discord'
+      - 'dropbox'
+      - 'firefox'
+      - 'font-hack-nerd-font'
+      - 'gimp'
+      - 'google-chrome'
+      - 'google-drive'
+      - 'google-hangouts'
+      - 'libreoffice'
+      - 'royal-tsx'
+      - 'signal'
+      - 'skype'
+      - 'slack'
+      - 'sling'
+      - 'spotify'
+      - 'telegram'
+      - 'tor-browser'
+      - 'vlc'
+      - 'zoom'
+    state: present
+    upgrade_all: yes
+    update_homebrew: yes
+      ignore_errors: true
+
