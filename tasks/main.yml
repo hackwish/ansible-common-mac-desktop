@@ -4,6 +4,7 @@
     name: "{{ packages }}"
   vars:
     packages:
+      - 'anydesk'
       - 'discord'
       - 'dropbox'
       - 'firefox'
