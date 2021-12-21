@@ -1,4 +1,17 @@
 ---
+- name: "Install Google Chrome with Homebrew Cask"
+  community.general.homebrew_cask:
+    name: "{{ packages }}"
+  vars:
+    packages:
+      - 'google-chrome'
+    state: present
+    upgrade_all: yes
+    update_homebrew: yes
+  register: brew_cask_desktop_chrome_result
+  ignore_errors: true
+  failed_when: "'Error:' in brew_cask_desktop_chrome_result.stderr"
+
 - name: "Install Homebrew Cask Packages"
   community.general.homebrew_cask:
     name: "{{ packages }}"
@@ -10,7 +23,6 @@
       - 'firefox'
       - 'font-hack-nerd-font'
       - 'gimp'
-      - 'google-chrome'
       - 'google-drive'
       - 'google-hangouts'
       - 'libreoffice'
@@ -27,5 +39,7 @@
     state: present
     upgrade_all: yes
     update_homebrew: yes
+  register: brew_cask_desktop_result
   ignore_errors: true
+  failed_when: "'Error:' in brew_cask_desktop_result.stderr"
 
