@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/hackwish/ansible-common-mac-desktop/compare/v1.0.3...v1.0.4) (2021-12-21)
+
+
+### Bug Fixes
+
+* **ansible:** change handle ignore errors ([c492512](https://github.com/hackwish/ansible-common-mac-desktop/commit/c492512dad271f236ad81b6b3574f0f691b5be98))
+
 ## [1.0.3](https://github.com/hackwish/ansible-common-mac-desktop/compare/v1.0.2...v1.0.3) (2021-12-21)
 
 
