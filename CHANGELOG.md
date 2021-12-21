@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/hackwish/ansible-common-mac-desktop/compare/v1.0.4...v1.0.5) (2021-12-21)
+
+
+### Bug Fixes
+
+* **ansible:** update package Google Hangoout replace for Google chat ([ac6ce82](https://github.com/hackwish/ansible-common-mac-desktop/commit/ac6ce82b9ca0a440fbd5529fad9d9b393ac0acd0))
+
 ## [1.0.4](https://github.com/hackwish/ansible-common-mac-desktop/compare/v1.0.3...v1.0.4) (2021-12-21)
 
 
