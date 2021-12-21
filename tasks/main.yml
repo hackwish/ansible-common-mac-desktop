@@ -30,7 +30,7 @@
       - 'signal'
       - 'skype'
       - 'slack'
-      - 'sling'
+      # - 'sling'
       - 'spotify'
       - 'telegram'
       - 'tor-browser'
@@ -41,5 +41,5 @@
     update_homebrew: yes
   register: brew_cask_desktop_result
   ignore_errors: true
-  failed_when: "'Error:' in brew_cask_desktop_result.stdout"
+  # failed_when: "'Error:' in brew_cask_desktop_result.stdout"
 
