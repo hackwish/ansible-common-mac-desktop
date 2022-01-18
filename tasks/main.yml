@@ -18,6 +18,7 @@
   vars:
     packages:
       - 'anydesk'
+      - 'barrier'
       - 'discord'
       - 'dropbox'
       - 'firefox'
@@ -36,6 +37,7 @@
       - 'tor-browser'
       - 'vlc'
       - 'zoom'
+      - 'rar'
     state: present
     upgrade_all: yes
     update_homebrew: yes
