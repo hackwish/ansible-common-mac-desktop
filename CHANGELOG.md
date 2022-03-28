@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/hackwish/ansible-common-mac-desktop/compare/v1.0.6...v1.0.7) (2022-01-18)
+
+
+### Bug Fixes
+
+* **ansible:** add rar unrar ([67dbea0](https://github.com/hackwish/ansible-common-mac-desktop/commit/67dbea053fa032c04bd90fbd46d4ce3e0fed2550))
+
 ## [1.0.6](https://github.com/hackwish/ansible-common-mac-desktop/compare/v1.0.5...v1.0.6) (2021-12-21)
 
 
