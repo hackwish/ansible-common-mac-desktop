@@ -38,6 +38,7 @@
       - 'vlc'
       - 'zoom'
       - 'rar'
+      - 'maestral'
     state: present
     upgrade_all: yes
     update_homebrew: yes
