@@ -1,16 +1,15 @@
 ---
-- name: "Install Google Chrome with Homebrew Cask"
-  community.general.homebrew_cask:
+- name: "Install Homebrew Packages"
+  community.general.homebrew:
     name: "{{ packages }}"
   vars:
     packages:
-      - 'google-chrome'
+      - 'imagemagick'
     state: present
-    upgrade_all: yes
     update_homebrew: yes
-  register: brew_cask_desktop_chrome_result
+    upgrade_all: yes
+  register: brew_common_result
   ignore_errors: true
-  failed_when: "'Error:' in brew_cask_desktop_chrome_result.stdout"
 
 - name: "Install Homebrew Cask Packages"
   community.general.homebrew_cask:
@@ -28,6 +27,7 @@
       - 'font-hack-nerd-font'
       - 'gimp'
       - 'google-chat'
+      - 'google-chrome'
       - 'google-drive'
       - 'imagemagick'
       - 'libreoffice'
