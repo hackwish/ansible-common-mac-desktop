@@ -17,28 +17,31 @@
     name: "{{ packages }}"
   vars:
     packages:
+      # - 'signal'
+      # - 'sling'
       - 'anydesk'
       - 'barrier'
+      - 'bitwarden'
       - 'discord'
       - 'dropbox'
       - 'firefox'
       - 'font-hack-nerd-font'
       - 'gimp'
-      - 'google-drive'
       - 'google-chat'
+      - 'google-drive'
+      - 'imagemagick'
       - 'libreoffice'
+      - 'maestral'
+      - 'rar'
       - 'royal-tsx'
-      - 'signal'
       - 'skype'
       - 'slack'
-      # - 'sling'
       - 'spotify'
       - 'telegram'
       - 'tor-browser'
       - 'vlc'
       - 'zoom'
-      - 'rar'
-      - 'maestral'
+      - 'keybase'
     state: present
     upgrade_all: yes
     update_homebrew: yes
