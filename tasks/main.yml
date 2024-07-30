@@ -5,6 +5,8 @@
   vars:
     packages:
       - 'imagemagick'
+      - 'youtube-dl'
+      - 'youtubedr'
     state: present
     update_homebrew: yes
     upgrade_all: yes
