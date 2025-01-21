@@ -20,17 +20,18 @@
     packages:
       # - 'signal'
       # - 'sling'
-      - 'anydesk'
+      # - 'anydesk'
       - 'barrier'
       - 'bitwarden'
       - 'discord'
-      - 'dropbox'
+      # - 'dropbox'
       - 'firefox'
       - 'font-hack-nerd-font'
       - 'gimp'
       - 'google-chat'
       - 'google-chrome'
       - 'google-drive'
+      - 'keybase'
       - 'libreoffice'
       - 'maestral'
       - 'rar'
@@ -42,7 +43,6 @@
       - 'tor-browser'
       - 'vlc'
       - 'zoom'
-      - 'keybase'
     state: present
     upgrade_all: yes
     update_homebrew: yes
