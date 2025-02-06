@@ -5,7 +5,6 @@
   vars:
     packages:
       # - 'youtube-dl'
-      - 'coreutils'
       - 'imagemagick'
       - 'youtubedr'
     state: present
