@@ -4,8 +4,8 @@
     name: "{{ packages }}"
   vars:
     packages:
-      - 'imagemagick'
       # - 'youtube-dl'
+      - 'imagemagick'
       - 'youtubedr'
     state: present
     update_homebrew: yes
@@ -18,13 +18,14 @@
     name: "{{ packages }}"
   vars:
     packages:
+      # - 'anydesk'
+      # - 'dropbox'
       # - 'signal'
       # - 'sling'
-      # - 'anydesk'
-      # - 'barrier'
+      - 'barrier'
       - 'bitwarden'
+      - 'coreutils'
       - 'discord'
-      # - 'dropbox'
       - 'firefox'
       - 'font-hack-nerd-font'
       - 'gimp'
