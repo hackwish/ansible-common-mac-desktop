@@ -21,7 +21,7 @@
       # - 'signal'
       # - 'sling'
       # - 'anydesk'
-      - 'barrier'
+      # - 'barrier'
       - 'bitwarden'
       - 'discord'
       # - 'dropbox'
